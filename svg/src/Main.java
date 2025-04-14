@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Original: " + original);
         System.out.println("Deep copy: " + deepCopy);
 
-        vgScene scene = new SvgScene();
+        SvgScene scene = new SvgScene();
 
         Point[] tri1 = {new Point(10, 10), new Point(60, 20), new Point(30, 60)};
         Point[] tri2 = {new Point(100, 100), new Point(150, 120), new Point(130, 160)};
