@@ -43,7 +43,6 @@ public class Main {
         scene.addPolygon(new Polygon(tri4)); // tu zaczyna się nadpisywanie
 
         System.out.println(scene.toSvg());
-
     }
 }
 
